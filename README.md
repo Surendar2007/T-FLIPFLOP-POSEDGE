@@ -26,17 +26,47 @@ Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop
  
 From the above characteristic table, we can directly write the next state equation as Q(t+1)=T′Q(t)+TQ(t)′ ⇒Q(t+1)=T⊕Q(t)
 
-**Procedure**
 
-/* write all the steps invloved */
+TRUTH TABLE:
+\\
+  
+  ![Screenshot 2024-12-26 082620](https://github.com/user-attachments/assets/17296b49-0148-41a3-b131-f93bd794fef1)
+
+
+**Procedure**
+1.Type the program in Quartus software to implement the T Flip-Flop with positive
+ edge-triggered clock using Verilog.
+ 
+ 2.Compile and run the program to check for any errors.
+ 
+ 3.Generate the RTL schematic to observe the generated logic circuit and save it for
+ documentation.
+ 
+ 4.Create input (T, clk) and output (Q, Q_bar) nodes in the simulation tool.
+ 
+ 5.Simulate the design to generate the timing diagram for different combinations of
+ input. 
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
+  
+  ![Screenshot 2024-12-26 082804](https://github.com/user-attachments/assets/8f31e1d7-a083-4efc-a002-23fc85689fc3)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
+\\
+
+   ![image](https://github.com/user-attachments/assets/ece1c1f2-194b-4ef8-88e5-b25e09804f82)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+\\
+
+   ![image](https://github.com/user-attachments/assets/5469834e-16d1-4143-b717-3630520233d3)
+
 
 **RESULTS**
+    Thus, the T Flip-Flop with positive edge triggering is implemented using Verilog, and its
+ functionality is validated using the truth table and timing diagrams
